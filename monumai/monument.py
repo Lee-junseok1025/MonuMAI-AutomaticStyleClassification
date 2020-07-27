@@ -4,6 +4,19 @@ class Monument:
     ELEMENT_DIC = {
         'hispanic-muslim': ['arco-herradura',   'arco-lobulado',   'dintel-adovelado'],
         'gothic':       ['arco-apuntado',   'arco-conopial',   'arco-trilobulado'],
+        'renaissance':  ['fronton',   'fronton-curvo',   'serliana'],
+        'baroque':      ['arco-medio-punto',   'vano-adintelado',    'ojo-de-buey',   'fronton-partido',   'columna-salomonica']
+    }
+    TRUE_ELEMENT_DIC = {
+        'hispanic-muslim': ['arco-herradura',   'arco-lobulado',   'dintel-adovelado'],
+        'gothic':       ['arco-apuntado',   'arco-conopial',   'arco-trilobulado'],
+        'renaissance':  ['fronton',   'fronton-curvo',   'serliana','arco-medio-punto',   'vano-adintelado',    'ojo-de-buey'],
+        'baroque':      ['arco-medio-punto',   'vano-adintelado',    'ojo-de-buey',   'fronton-partido',   'columna-salomonica']
+    }
+
+    XML_ELEMENT_DIC = {
+        'hispanic-muslim': ['arco-herradura',   'arco-lobulado',   'dintel-adovelado'],
+        'gothic':       ['arco-apuntado',   'arco-conopial',   'arco-trilobulado'],
         'renaissance':  ['arco-medio-punto',   'vano-adintelado',   'ojo-de-buey',   'fronton',   'fronton-curvo',   'serliana'],
         'baroque':      ['arco-medio-punto',   'vano-adintelado',    'ojo-de-buey',   'fronton-partido',   'columna-salomonica']
     }

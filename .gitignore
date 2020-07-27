@@ -20,3 +20,9 @@ venv.bak/
 
 # IDE
 .idea
+
+# Data & Models
+models/*
+Data/*
+*.txt
+*.csv

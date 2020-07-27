@@ -63,7 +63,7 @@ class Metadata:
 			self.load_metadata_xml()
 
 	def load_metadata_json(self):
-		print('Load .json metadata: ', self.filepath)
+		#print('Load .json metadata: ', self.filepath)
 		with open(self.filepath) as json_file:
 			data = json.load(json_file)
 			predictions = np.array(data.get('object', []))		# Get object prediction list

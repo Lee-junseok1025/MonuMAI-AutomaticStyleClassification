@@ -37,10 +37,9 @@ def metadata_to_class_indx(filename):
 # read metadata files from directory, aggregate, and append into matrix
 def metadata_to_matrix(directory, type):
     file_paths = read_metadata_file_paths(directory, type)      # metadata files of type
-
     # aggregate metadata and store in matrix
     num_inst = len(file_paths)
-    inst_len = sum([len(x) for x in list(Monument.ELEMENT_DIC.values())])+2     # num elements in dic + class label + metadata filename
+    inst_len = sum([len(x) for x in list(Monument.ELEMENT_DIC.values())]) + 2    # num elements in dic + class label + metadata filename
     matrix = []
     for path in file_paths:
         aggregation = metadata_to_aggregation_sum(directory, path)      # create generic "metadata_to_aggregation" if different aggregate operations needed
