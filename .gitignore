@@ -22,7 +22,6 @@ venv.bak/
 .idea
 
 # Data & Models
-models/*
 Data/*
 *.txt
 *.csv
